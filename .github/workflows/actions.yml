@@ -29,11 +29,11 @@ jobs:
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
         run: |
           python dca.py \
-            --cb-api-key ${CB_API_KEY} \
-            --cb-api-secret ${CB_API_SECRET} \
-            --tg-bot-token ${TG_BOT_TOKEN} \
-            --tg-chat-id ${TG_CHAT_ID} \
-            --quote-size 1
+            --cb-api-key='${CB_API_KEY}' \
+            --cb-api-secret='${CB_API_SECRET}' \
+            --tg-bot-token='${TG_BOT_TOKEN}' \
+            --tg-chat-id='${TG_CHAT_ID}' \
+            --quote-size=1
 
       - name: commit logs
         run: |

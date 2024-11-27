@@ -35,7 +35,7 @@ jobs:
             --cb-api-secret="${CB_API_SECRET}" \
             --tg-bot-token="${TG_BOT_TOKEN}" \
             --tg-chat-id="${TG_CHAT_ID}" \
-            --quote-size=1
+            --quote-size=50
 
       - name: commit logs
         run: |

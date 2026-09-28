@@ -1,0 +1,2 @@
+2026-09-28 04:18:06,724 - INFO - market price for BTC-USD is 83449.99
+2026-09-28 04:18:07,638 - ERROR - failed to create order... {'error': 'INSUFFICIENT_FUND', 'message': 'Insufficient balance in source account', 'error_details': '', 'preview_failure_reason': 'PREVIEW_INSUFFICIENT_FUND'}
